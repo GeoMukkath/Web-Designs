@@ -1,0 +1,5399 @@
+body{
+  background-color: #cbe8ef;
+  overflow-x: hidden;
+  height: 650%;
+}
+
+.menu{
+	height: 100%;
+	position: fixed;
+	width: 250px;
+	background-color: white;
+	left: 0px;
+	background-repeat: repeat-y;
+	overflow-y: visible;
+}
+#listofmenu{
+	margin-top: 50%;
+	text-decoration: none;
+	margin-left: 32%;
+	font-family: 'VT323', monospace;
+	color: #303df2;
+	font-size: 30px;
+	list-style-type: none;
+}
+
+.mp{
+	text-decoration: none;
+}
+
+
+#block1{
+  background-color: white;
+  width: 2000px ;
+  height: 70px;
+  top: 0px;
+  position: absolute;
+}
+#flag{
+  height: 70px;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+#b1{
+  z-index: 2 ;
+  position: absolute;
+  background-color: #2F52E0;
+  width: 100px;
+  height: 40px;
+  color: white;
+  right: 400px;
+  border: none;
+  font-family: 'Work Sans', sans-serif;
+  top: 12px;
+  border-radius: 3px;
+}
+
+
+#b2{
+  z-index: 2 ;
+  position: absolute;
+  background-color: #2F52E0;
+  width: 100px;
+  height: 40px;
+  color: white;
+  right:250px;
+  border:none;
+  font-family: 'Work Sans', sans-serif;
+  top: 12px;
+  border-radius: 3px;
+}
+
+#u{
+    color: #BC1D1A;
+    bottom: 110px;
+    position: fixed;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150px;
+    left: 25px;
+}
+
+#online{
+    color: #2F52E0;
+    bottom: 140px;
+    position: fixed;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    left: 122px;
+}
+
+
+/*first*/
+
+.container1 div{
+  width: 170px;
+  height: 220px;
+  top: 29%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container1 .img1{
+  background-image: url("States/Alabama/alabama.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container1 .info1{
+  background-color: white;
+}
+
+.container1.slide .img1{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container1.slide .info1{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info1 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+.smap{
+
+	position: absolute;
+	bottom: 8px;
+	right: 20px;
+	color:#EB6534;
+	font-size:17px;
+
+}
+
+.smap:hover{
+	color:#7DCFB6;
+	cursor: pointer;
+}
+
+#onmap{
+	position: absolute;
+	bottom: 3px;
+	right: 17px;
+	color:#EB6534;
+	font-size: 7px;
+}
+
+#onmap:hover{
+	color:#7DCFB6;
+	cursor: pointer;
+}
+
+
+/*second*/
+
+.container2 div{
+  width: 170px;
+  height: 220px;
+  top: 29%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container2 .img2{
+  background-image: url("States/Alaska/alaska.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container2 .info2{
+  background-color: white;
+}
+
+.container2.slide .img2{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container2.slide .info2{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info2 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*third*/
+
+
+.container3 div{
+  width: 170px;
+  height: 220px;
+  top: 29%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container3 .img3{
+  background-image: url("States/Arizona/arizona.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container3 .info3{
+  background-color: white;
+}
+
+.container3.slide .img3{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container3.slide .info3{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info3 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*fourth*/
+
+.container4 div{
+ width: 170px;
+  height: 220px;
+  top: 29%;
+  left: 90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container4 .img4{
+  background-image: url("States/Arkansas/arkansas.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container4 .info4{
+  background-color: white;
+}
+
+.container4.slide .img4{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container4.slide .info4{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info4 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*five*/
+
+.container5 div{
+ width: 170px;
+  height: 220px;
+  top: 75%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container5 .img5{
+  background-image: url("States/California/california.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container5 .info5{
+  background-color: white;
+}
+
+.container5.slide .img5{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container5.slide .info5{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info5 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*six*/
+
+.container6 div{
+ width: 170px;
+  height: 220px;
+  top: 75%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container6 .img6{
+  background-image: url("States/Colorado/colorado.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container6 .info6{
+  background-color: white;
+}
+
+.container6.slide .img6{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container6.slide .info6{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info6 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*seven*/
+
+.container7 div{
+ width: 170px;
+  height: 220px;
+  top: 75%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container7 .img7{
+  background-image: url("States/Connecticut/connecticut.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  background-position: bottom;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container7 .info7{
+  background-color: white;
+}
+
+.container7.slide .img7{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container7.slide .info7{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info7 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*eight*/
+
+.container8 div{
+ width: 170px;
+  height: 220px;
+  top: 75%;
+  left: 90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container8 .img8{
+  background-image: url("States/Delware/delware.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container8 .info8{
+  background-color: white;
+}
+
+.container8.slide .img8{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container8.slide .info8{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info8 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*nine*/
+
+.container9 div{
+ width: 170px;
+  height: 220px;
+  top: 125%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container9 .img9{
+  background-image: url("States/Florida/florida.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container9 .info9{
+  background-color: white;
+}
+
+.container9.slide .img9{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container9.slide .info9{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info9 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*ten*/
+
+.container10 div{
+ width: 170px;
+  height: 220px;
+  top: 125%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container10 .img10{
+  background-image: url("States/Georgia/georgia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container10 .info10{
+  background-color: white;
+}
+
+.container10.slide .img10{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container10.slide .info10{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info10 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+
+/*eleven*/
+
+.container11 div{
+ width: 170px;
+  height: 220px;
+  top: 125%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container11 .img11{
+  background-image: url("States/Hawaii/hawaii.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container11 .info11{
+  background-color: white;
+}
+
+.container11.slide .img11{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container11.slide .info11{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info11 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*twelve*/
+.container12 div{
+ width: 170px;
+  height: 220px;
+  top: 125%;
+  left: 90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container12 .img12{
+  background-image: url("States/Idaho/idaho.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container12 .info12{
+  background-color: white;
+}
+
+.container12.slide .img12{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container12.slide .info12{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info12 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*thirteen*/
+
+.container13 div{
+ width: 170px;
+  height: 220px;
+  top: 175%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container13 .img13{
+  background-image: url("States/Illinois/illinois.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container13 .info13{
+  background-color: white;
+}
+
+.container13.slide .img13{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container13.slide .info13{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info13 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*fourteen*/
+
+.container14 div{
+ width: 170px;
+  height: 220px;
+  top: 175%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container14 .img14{
+  background-image: url("States/indianna/indianna.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container14 .info14{
+  background-color: white;
+}
+
+.container14.slide .img14{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container14.slide .info14{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info14 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*fifteen*/
+
+.container15 div{
+ width: 170px;
+  height: 220px;
+  top: 175%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container15 .img15{
+  background-image: url("States/Iowa/iowa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container15 .info15{
+  background-color: white;
+}
+
+.container15.slide .img15{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container15.slide .info15{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info15 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*sixteen*/
+
+.container16 div{
+ width: 170px;
+  height: 220px;
+  top: 175%;
+  left: 90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container16 .img16{
+  background-image: url("States/Kansas/kansas.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container16 .info16{
+  background-color: white;
+}
+
+.container16.slide .img16{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container16.slide .info16{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info16 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*seventeen*/
+
+.container17 div{
+ width: 170px;
+  height: 220px;
+  top: 225%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container17 .img17{
+  background-image: url("States/Kentucky/kentucky.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container17 .info17{
+  background-color: white;
+}
+
+.container17.slide .img17{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container17.slide .info17{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info17 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+
+/*eighteen*/
+
+.container18 div{
+ width: 170px;
+  height: 220px;
+  top: 225%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container18 .img18{
+  background-image: url("States/Louisiana/louisiana.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container18 .info18{
+  background-color: white;
+}
+
+.container18.slide .img18{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container18.slide .info18{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info18 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*nineteen*/
+
+.container19 div{
+ width: 170px;
+  height: 220px;
+  top: 225%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container19 .img19{
+  background-image: url("States/Maine/maine.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container19 .info19{
+  background-color: white;
+}
+
+.container19.slide .img19{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container19.slide .info19{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info19 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+
+/*twenty*/
+
+.container20 div{
+ width: 170px;
+  height: 220px;
+  top: 225%;
+  left: 90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container20 .img20{
+  background-image: url("States/Maryland/maryland.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container20 .info20{
+  background-color: white;
+}
+
+.container20.slide .img20{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container20.slide .info20{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info20 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+
+/*twenty-one*/
+
+.container21 div{
+ width: 170px;
+  height: 220px;
+  top: 275%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container21 .img21{
+  background-image: url("States/Massachuttes/massachusetts.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container21 .info21{
+  background-color: white;
+}
+
+.container21.slide .img21{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container21.slide .info21{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info21 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*twenty-two*/
+
+.container22 div{
+ width: 170px;
+  height: 220px;
+  top: 275%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container22 .img22{
+  background-image: url("States/Michigan/michigan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container22 .info22{
+  background-color: white;
+}
+
+.container22.slide .img22{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container22.slide .info22{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info22 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*twenty-three*/
+
+.container23 div{
+ width: 170px;
+  height: 220px;
+  top: 275%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container23 .img23{
+  background-image: url("States/Minnesota/minnesota.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container23 .info23{
+  background-color: white;
+}
+
+.container23.slide .img23{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container23.slide .info23{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info23 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*twenty-four*/
+
+.container24 div{
+ width: 170px;
+  height: 220px;
+  top: 275%;
+  left: 90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container24 .img24{
+  background-image: url("States/Mississippi/mississippi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container24 .info24{
+  background-color: white;
+}
+
+.container24.slide .img24{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container24.slide .info24{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info24 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*twenty-five*/
+
+.container25 div{
+ width: 170px;
+  height: 220px;
+  top: 325%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container25 .img25{
+  background-image: url("States/Missouri/missouri.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container25 .info25{
+  background-color: white;
+}
+
+.container25.slide .img25{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container25.slide .info25{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info25 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*twenty-six*/
+.container26 div{
+ width: 170px;
+  height: 220px;
+  top: 325%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container26 .img26{
+  background-image: url("States/Montana/montana.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container26 .info26{
+  background-color: white;
+}
+
+.container26.slide .img26{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container26.slide .info26{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info26 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*twenty-seven*/
+
+.container27 div{
+ width: 170px;
+  height: 220px;
+  top: 325%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container27 .img27{
+  background-image: url("States/Nebraska/nebraska.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container27 .info27{
+  background-color: white;
+}
+
+.container27.slide .img27{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container27.slide .info27{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info27 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*twenty-eight*/
+
+.container28 div{
+ width: 170px;
+  height: 220px;
+  top: 325%;
+  left: 90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container28 .img28{
+  background-image: url("States/Nevada/nevada.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container28 .info28{
+  background-color: white;
+}
+
+.container28.slide .img28{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container28.slide .info28{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info28 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*twenty-nine*/
+
+.container29 div{
+ width: 170px;
+  height: 220px;
+  top: 375%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container29 .img29{
+  background-image: url("States/New hampshire/newhampshire.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container29 .info29{
+  background-color: white;
+}
+
+.container29.slide .img29{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container29.slide .info29{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info29 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*thirty*/
+
+.container30 div{
+ width: 170px;
+  height: 220px;
+  top: 375%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container30 .img30{
+  background-image: url("States/New Jersey/newjersey.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container30 .info30{
+  background-color: white;
+}
+
+.container30.slide .img30{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container30.slide .info30{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info30 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*thirty-one*/
+
+.container31 div{
+ width: 170px;
+  height: 220px;
+  top: 375%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container31 .img31{
+  background-image: url("States/New Mexico/newmexico.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container31 .info31{
+  background-color: white;
+}
+
+.container31.slide .img31{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container31.slide .info31{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info31 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*thrity-two*/
+
+.container32 div{
+  width: 170px;
+  height: 220px;
+  top: 375%;
+  left: 90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container32 .img32{
+  background-image: url("States/New York/newyork.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container32 .info32{
+  background-color: white;
+
+}
+
+.container32.slide .img32{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container32.slide .info32{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info32 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*thirty-three*/
+
+.container33 div{
+  width: 170px;
+  height: 220px;
+  top: 425%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container33 .img33{
+  background-image: url("States/North Carolina/northcarolina.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container33 .info33{
+  background-color: white;
+}
+
+
+.container33.slide .img33{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container33.slide .info33{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info33 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*thrity-four*/
+
+.container34 div{
+ width: 170px;
+  height: 220px;
+  top: 425%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container34 .img34{
+  background-image: url("States/North Dakota/northdakota.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container34 .info34{
+  background-color: white;
+}
+
+
+.container34.slide .img34{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container34.slide .info34{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info34 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*thirty-five*/
+
+.container35 div{
+ width: 170px;
+  height: 220px;
+  top: 425%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container35 .img35{
+  background-image: url("States/Ohio/ohio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container35 .info35{
+  background-color: white;
+}
+
+
+.container35.slide .img35{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container35.slide .info35{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info35 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*thrity-six*/
+
+.container36 div{
+ width: 170px;
+  height: 220px;
+  top: 425%;
+  left: 90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container36 .img36{
+  background-image: url("States/Oklahoma/oklahoma.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container36 .info36{
+  background-color: white;
+}
+
+
+.container36.slide .img36{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container36.slide .info36{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info36 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*thirty-seven*/
+
+.container37 div{
+ width: 170px;
+  height: 220px;
+  top: 475%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container37 .img37{
+  background-image: url("States/Oregon/oregon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container37 .info37{
+  background-color: white;
+}
+
+
+.container37.slide .img37{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container37.slide .info37{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info37 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*thirty-eight*/
+
+
+.container38 div{
+ width: 170px;
+  height: 220px;
+  top: 475%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container38 .img38{
+  background-image: url("States/Pennysylvania/pennysylvania.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container38 .info38{
+  background-color: white;
+}
+
+
+.container38.slide .img38{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container38.slide .info38{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info38 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*thirty-nine*/
+
+
+.container39 div{
+ width: 170px;
+  height: 220px;
+  top: 475%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container39 .img39{
+  background-image: url("States/Rhode Island/rhodeisland.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container39 .info39{
+  background-color: white;
+}
+
+
+.container39.slide .img39{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container39.slide .info39{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info39 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*forty*/
+
+
+.container40 div{
+ width: 170px;
+  height: 220px;
+  top: 475%;
+  left: 90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container40 .img40{
+  background-image: url("States/South Carolina/southcarolina.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container40 .info40{
+  background-color: white;
+}
+
+
+.container40.slide .img40{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container40.slide .info40{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info40 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*fourty-one*/
+
+.container41 div{
+ width: 170px;
+  height: 220px;
+  top: 525%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container41 .img41{
+  background-image: url("States/South Dakota/southdakota.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container41 .info41{
+  background-color: white;
+}
+
+
+.container41.slide .img41{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container41.slide .info41{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info41 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*fourty-two*/
+
+.container42 div{
+ width: 170px;
+  height: 220px;
+  top: 525%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container42 .img42{
+  background-image: url("States/Tennessee/tennessee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container42 .info42{
+  background-color: white;
+}
+
+
+.container42.slide .img42{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container42.slide .info42{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info42 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*fourty-three*/
+
+.container43 div{
+ width: 170px;
+  height: 220px;
+  top: 525%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container43 .img43{
+  background-image: url("States/Texas/texas.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container43 .info43{
+  background-color: white;
+}
+
+
+.container43.slide .img43{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container43.slide .info43{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info43 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/* fourty-four*/
+
+.container44 div{
+ width: 170px;
+  height: 220px;
+  top: 525%;
+  left: 90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container44 .img44{
+  background-image: url("States/Utah/utah.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container44 .info44{
+  background-color: white;
+}
+
+
+.container44.slide .img44{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container44.slide .info44{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info44 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*fourty-five*/
+
+
+.container45 div{
+ width: 170px;
+  height: 220px;
+  top: 575%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container45 .img45{
+  background-image: url("States/Vermont/vermont.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container45 .info45{
+  background-color: white;
+}
+
+
+.container45.slide .img45{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container45.slide .info45{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info45 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*fourty-six*/
+
+
+.container46 div{
+ width: 170px;
+  height: 220px;
+  top: 575%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container46 .img46{
+  background-image: url("States/Virginia/virginia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container46 .info46{
+  background-color: white;
+}
+
+
+.container46.slide .img46{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container46.slide .info46{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info46 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*fourty-seven*/
+
+
+.container47 div{
+ width: 170px;
+  height: 220px;
+  top: 575%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container47 .img47{
+  background-image: url("States/Washington/washington.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container47 .info47{
+  background-color: white;
+}
+
+
+.container47.slide .img47{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container47.slide .info47{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info47 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*fourty-eight*/
+
+
+.container48 div{
+ width: 170px;
+  height: 220px;
+  top: 575%;
+  left: 90%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container48 .img48{
+  background-image: url("States/West Virginia/westvirginia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container48 .info48{
+  background-color: white;
+}
+
+
+.container48.slide .img48{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container48.slide .info48{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info48 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*fourty-nine*/
+
+.container49 div{
+ width: 170px;
+  height: 220px;
+  top: 625%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container49 .img49{
+  background-image: url("States/WIsconsin/wisonsin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container49 .info49{
+  background-color: white;
+}
+
+
+.container49.slide .img49{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container49.slide .info49{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info49 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+/*fifty*/
+
+.container50 div{
+ width: 170px;
+  height: 220px;
+  top: 625%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 7px;
+  transition: transform 0.4s ease-out;
+}
+
+.container50 .img50{
+  background-image: url("States/West Virginia/westvirginia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 36px 10px -12px rgba(0,0,0,0.2);
+}
+
+.container50 .info50{
+  background-color: white;
+}
+
+
+.container50.slide .img50{
+  transform: translate(-50% , calc(-50% - 40px));
+}
+
+.container50.slide .info50{
+  transform: translate(-50% , calc(-50% + 40px) ) scale(1.1);
+}
+
+
+h1{
+	position: absolute;
+	bottom: 33px;
+	font-family: 'Assistant', sans-serif;
+	font-weight:lighter;
+    font-size: 25px;
+    color: #514954;
+    left: 5px;
+}
+
+.info50 p{
+	font-family: 'Open Sans', sans-serif;
+	color: #6B5F69;
+	font-size: 8px;
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.stars{
+	position: absolute;
+	bottom: 8px;
+	font-size: 12px;
+	direction: rtl;
+	left: 10px;
+	cursor: pointer;
+}
+
+.star a{
+	font-size: 12px;
+    transition: 0.3s all;
+    color: #514954;
+     
+}
+
+.stars a:hover{
+	color: #C2C5BB;
+	 
+}
+
+.s1:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s2:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s3:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s4:hover ~ a{
+	color:#C2C5BB;
+}
+
+.s5:hover ~ a{
+	color:#C2C5BB;
+}
+
+.temp{
+	position: absolute;
+	bottom: 8px;
+	right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5BC0BE;
+	font-size: 13px;
+}
+
+
+
+#more:hover{
+	color: #F79824;
+}
